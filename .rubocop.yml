@@ -1,0 +1,11 @@
+Lint/SuppressedException:
+  Enabled: false
+
+Metrics/PerceivedComplexity:
+    Max: 5
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Metrics/MethodLength:
+  Max: 25
