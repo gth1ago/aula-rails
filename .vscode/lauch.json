@@ -1,0 +1,26 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Rails test",
+			"type": "Ruby",
+			"request": "launch",
+			"cwd": "${workspaceRoot}",
+			"program": "${workspaceRoot}/bin/rails",
+			"args": ["test"]
+		},
+		{
+			"name": "Rails server",
+			"type": "Ruby",
+			"request": "launch",
+			"cwd": "${workspaceRoot}",
+			"program": "${workspaceRoot}/bin/rails",
+			"env": {
+				"GEM_HOME": "$HOME/.rvm/gems/ruby-3.0.1",
+				"GEM_PATH": "$HOME/.rvm/gems/ruby-3.0.1:$HOME/.rvm/gems/ruby-3.0.1@global",
+				"RUBY_VERSION": "ruby-3.0.1"
+			},
+			"args": ["server"]
+		}
+	]
+}
