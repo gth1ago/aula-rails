@@ -16,8 +16,8 @@
 			"cwd": "${workspaceRoot}",
 			"program": "${workspaceRoot}/bin/rails",
 			"env": {
-				"GEM_HOME": "$HOME/.rvm/gems/ruby-3.0.1",
-				"GEM_PATH": "$HOME/.rvm/gems/ruby-3.0.1:$HOME/.rvm/gems/ruby-3.0.1@global",
+				"GEM_HOME": "/home/bfsgr/.rvm/gems/ruby-3.0.1",
+				"GEM_PATH": "/home/bfsgr/.rvm/gems/ruby-3.0.1:/home/bfsgr/.rvm/gems/ruby-3.0.1@global",
 				"RUBY_VERSION": "ruby-3.0.1"
 			},
 			"args": ["server"]
