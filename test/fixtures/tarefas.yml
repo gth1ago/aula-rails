@@ -1,11 +1,6 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
-  name: MyString
-  description: MyText
-  status: false
-
-two:
-  name: MyString
-  description: MyText
+um:
+  name: Lavar o carro
+  description: com a lavadora de pressão
   status: false
