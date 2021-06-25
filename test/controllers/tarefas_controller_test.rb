@@ -7,6 +7,13 @@ class TarefasControllerTest < ActionDispatch::IntegrationTest
   end
 
   test 'mostra tarefa' do
-    tarefa_path: tarefas(:one)
+    get tarefa_path tarefas(:one), xhr: true
+    assert_response :ok
+  end
+
+  test 'no exist' do
+    assert_raise ActiveRecord::RecordNotFound do
+      get '/api/tarefas/111', xhr: true
+    end
   end
 end

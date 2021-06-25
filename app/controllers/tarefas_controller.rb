@@ -5,11 +5,13 @@ class TarefasController < ApplicationController
   end
 
   def show
+    tarefas = Tarefa.find(params[:id])
+    render json: tarefas
   end
 
-  def update
+  def update;
   end
 
-  def destroy
+  def destroy;
   end
 end
